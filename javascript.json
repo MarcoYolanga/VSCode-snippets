@@ -19,4 +19,11 @@
 		],
 		"description": "If you need to descend into a nested \"this\" scope, you need a reference to the parent object"
 	},
+	"Each js init": {
+		"prefix": "js-init",
+		"body": [
+			"$1.find('.$2:not(.js-inited)').addClass('js-inited').each(function () {\n$3\n});\n"
+		],
+		"description": "JQuery init each non js-inited component"
+	},
 }
