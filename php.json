@@ -12,7 +12,13 @@
 	// 	],
 	// 	"description": "Log output to console"
 	// }
-
+	"EOD": {
+		"prefix": "eod",
+		"body": [
+			"<<<EOD\n$1\nEOD;"
+		],
+		"description": "Fetch results from a query $result"
+	},
 	"Parse sql fetch": {
 		"prefix": "fetch",
 		"body": [
