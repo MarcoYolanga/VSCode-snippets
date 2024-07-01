@@ -26,4 +26,11 @@
 		],
 		"description": "JQuery init each non js-inited component"
 	},
+	"On DOMContentLoaded": {
+		"prefix": "domcontentloaded",
+		"body": [
+			"window.addEventListener('DOMContentLoaded', function () {\n\t$1\n});\n"
+		],
+		"description": "JQuery init each non js-inited component"
+	},
 }
