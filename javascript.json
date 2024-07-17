@@ -33,4 +33,11 @@
 		],
 		"description": "JQuery init each non js-inited component"
 	},
+	"Throw exception": {
+		"prefix": "throw",
+		"body": [
+			"throw new Error(\"$1\");\n$2"
+		],
+		"description": "Throw js error"
+	},
 }
